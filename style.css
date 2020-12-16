@@ -15,10 +15,22 @@ body {
 	text-align: center;
 }
 
+#contact_holder {
+	margin-top: 20px;
+	text-align: center;
+}
+
 #icon_holder {
 	margin-top: 10px;
 	text-align: center;
 	position: relative;
+	white-space:nowrap;
+}
+
+.icon_link {
+	display:inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 #info_holder {
@@ -31,7 +43,11 @@ body {
     max-width: 90%;
     transform: translateY(-50%);
     margin: auto;
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /*padding: 30px;*/
     background: rgba(116, 143, 167, 0.5);
     color: #ccc;
 }
@@ -73,4 +89,6 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-a { color: inherit; } 
+/*.contact */
+
+a { color: inherit; text-decoration: none;} 
