@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-position: center;
+}
+
+#profile_pic {
+	border-radius: 50%;	
+	height: 200px;
+}
+
+#profile_holder {
+	text-align: center;
+}
+
+#icon_holder {
+	margin-top: 10px;
+	text-align: center;
+	position: relative;
+}
+
+#info_holder {
+	border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 600px;
+    max-width: 90%;
+    transform: translateY(-50%);
+    margin: auto;
+    padding: 30px;
+    background: rgba(116, 143, 167, 0.5);
+    color: #ccc;
+}
+
+#name {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 25px;
+	letter-spacing: 2.2px;
+	word-spacing: 2px;
+	color: #e8fdff;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+.linkbg {
+	position: relative;
+	background: rgb(116, 155, 170);
+    border-radius: 50%;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+
+    /*top: 50%;*/
+	left: 50%;
+	-ms-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+
+.linkon {
+	display: block;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+a { color: inherit; } 
