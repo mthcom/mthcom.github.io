@@ -92,3 +92,15 @@ body {
 /*.contact */
 
 a { color: inherit; text-decoration: none;} 
+
+@media only screen and (max-width: 800px) {
+	#info_holder {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#info_holder {
+		width: 300px;
+	}
+}
