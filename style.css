@@ -70,6 +70,19 @@ body {
 	text-transform: none;
 }
 
+#bio {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	word-spacing: 0px;
+	color: #e8fdff;
+	font-weight: normal;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
 .linkbg {
 	position: relative;
 	background: rgb(116, 155, 170);
