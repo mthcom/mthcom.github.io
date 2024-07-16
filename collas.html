@@ -13,17 +13,25 @@
             padding: 0;
         }
         .section {
-            margin: 40px auto;
-            max-width: 600px;
-            padding: 10px;
+            margin: 20px auto;
+            max-width: 400px;
+            padding-top: 5px;
+            padding-bottom: 5px;
             background-color: #f0f0f0;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             text-align: center;
         }
+        .section-title {
+            margin: 20px auto;
+            max-width: 600px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            text-align: center;
+        }
         .section h1 {
             font-size: 2em;
-            margin-bottom: 10px;
         }
         .section p {
             font-size: 1.2em;
@@ -41,22 +49,34 @@
     </style>
 </head>
 <body>
-    <div class="section">
+    <div class="section-title">
         <h1>Automatic Pruning of Fine-tuning Datasets for Transformer-based Language Models</h1>
-        <div style="font-size: 1.17em; font-weight: normal;">Mohammadreza Tayaranian, Seyyed Hasan Mozafari, Brett H. Meyer, James J. Clark, and Warren J. Gross</div>
+        <div style="font-size: 1.17em; font-weight: normal;"><b>Mohammadreza Tayaranian</b>, Seyyed Hasan Mozafari, Brett H. Meyer, James J. Clark, and Warren J. Gross</div>
         <div style="font-size: 1.17em; font-weight: normal; margin-top:5px">McGill University, Montreal, Canada</div>
     </div>
-    <a href="https://arxiv.org/abs/2407.08887" class="section-link">
-        <div class="section">
+    <div class="section">
+            <a href="https://arxiv.org/abs/2407.08887" class="section-link">
             <p>Full paper (arXiv)</p>
             <i class="fas fa-file-pdf icon" style="color: black;"></i>
-        </div>
-    </a>
-    <a href="https://github.com/mthcom/hscore-dataset-pruning" class="section-link">
-        <div class="section">
-            <p>Implementation (Github)</p>
+        </a>
+    </div>
+    <div class="section">
+            <a href="https://github.com/mthcom/hscore-dataset-pruning" class="section-link">
+            <p>Code (Github)</p>
             <i class="fas fa-code icon" style="color: black;"></i>
-        </div>
+        </a>
+    </div>
+    <div class="section">
+            <a href="mailto:mohammadreza.tayaranian@mail.mcgill.ca" class="section-link">
+            <p>Email</p>
+            <i class="fas fa-envelope icon" style="color: black;"></i>
+        </a>
+    </div>
+    <div class="section">
+        <a href="https://www.linkedin.com/in/mthcom" class="section-link">
+        <p>LinkedIn</p>
+        <i class="fas fa-user icon" style="color: black;"></i>
     </a>
+</div>
 </body>
 </html>
